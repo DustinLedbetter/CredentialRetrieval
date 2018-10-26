@@ -17,8 +17,8 @@ namespace CredentialRetrievelTest
         {
 
             // This section prints out user and machine information
-            Console.WriteLine("TimeStamp:               " + DateTime.Now);                       // Timestamp of the moment this is ran
-            Console.WriteLine("Current Logged UserName: " + Environment.UserName); // Name of user logged onto PC
+            Console.WriteLine("TimeStamp:               " + DateTime.Now);              // Timestamp of the moment this is ran
+            Console.WriteLine("Current Logged UserName: " + Environment.UserName);      // Name of user logged onto PC
             Console.WriteLine("Local Machine Name:      " + Environment.MachineName);   // DNS from System namespace itself
             Console.WriteLine("Local Machine Name:      " + Dns.GetHostName());         // DNS from System.Net
 
